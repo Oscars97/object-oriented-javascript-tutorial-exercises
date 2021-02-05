@@ -16,3 +16,6 @@ class Printer{
 }
 
 //Your code here
+const myPrinter = new Printer();
+let testResult = myPrinter.printerTest();
+console.log(testResult);
